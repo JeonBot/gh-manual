@@ -65,6 +65,31 @@ __Initialize this repository with a README__: `master` 브랜치의 첫 커밋�
 
 ### 1-2 로컬로 가져오기
 
+![다음의 저장소를 로컬로 클론합니다](clone_to_local.png)
+
+README를 추가하지 않고 저장소를 만들면 위와 같은 UI가 뜹니다.
+README를 추가한 경우에는 페이지의 우측 하단에서
+저장소 주소를 복사할 수 있습니다.
+깃헙 클라이언트를 사용하는 경우에는 `Set up in Desktop` 혹은
+`Clone in Desktop` 버튼을 클릭하면 되고,
+커맨드라인 환경에서 git을 직접 사용하는 경우에는 위의 주소를 복사하여
+다음과 같이 클론을 받으면 됩니다.
+
+```sh
+git clone git@github.com:disjukr/Test-Repository.git
+```
+
+README를 추가하지 않은 경우에는 다음과 같이 로컬 저장소에 깃헙 저장소를
+원격 저장소로 등록하여 기존 작업이력을 올릴 수 있습니다.
+
+```sh
+git init
+#현재 폴더를 저장소로 만든 다음,
+git remote add origin git@github.com:disjukr/Test-Repository.git
+#깃헙 저장소를 원격 저장소로 등록
+```
+
+
 ### 1-3 수정사항을 깃헙 저장소에 반영하기
 
 
