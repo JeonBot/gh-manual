@@ -22,6 +22,7 @@
 3. [다른사람의 도움을 받기](#3)
     1. [PR받기](#3-1)
     2. [이슈 관리하기](#3-2)
+    3. [Collaborator 추가하기](#3-3)
 
 
 1 혼자서 작업하기
@@ -86,11 +87,18 @@ README를 추가하지 않은 경우에는 다음과 같이 로컬 저장소에 
 git init
 #현재 폴더를 저장소로 만든 다음,
 git remote add origin git@github.com:disjukr/Test-Repository.git
-#깃헙 저장소를 원격 저장소로 등록
+#깃헙 저장소를 origin으로 등록
 ```
 
 
 ### 1-3 수정사항을 깃헙 저장소에 반영하기
+
+자신의 깃헙 저장소가 `origin`으로 등록이 되어있다면 다음과 같이
+`master` 브랜치의 수정사항을 저장소에 반영할 수 있습니다.
+
+```sh
+git push origin master
+```
 
 
 2 다른사람 저장소에 기여하기
@@ -111,3 +119,5 @@ git remote add origin git@github.com:disjukr/Test-Repository.git
 ### 3-1 PR받기
 
 ### 3-2 이슈 관리하기
+
+### 3-3 Collaborator 추가하기
