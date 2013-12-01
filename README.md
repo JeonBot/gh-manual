@@ -140,7 +140,29 @@ PR을 보내려면 우선 해당 저장소를 포크해야 합니다.
 
 ### 2-2 로컬로 가져오기
 
+![어디서 포크해왔는지도 알 수 있습니다](clone_to_my_local.png)
+
+포크가 끝나면 자신의 계정에 해당 저장소가 추가됩니다.
+이 곳에는 원하는대로 커밋을 푸시할 수 있습니다.
+
+
 ### 2-3 수정사항을 "내" 깃헙 저장소에 반영하기
+
+보통 자신의 저장소를 가르키는 remote 이름은 `origin`으로 짓고,
+원본 저장소는 `upstream`이라고 붙입니다.
+
+자신이 해당 프로젝트의 collaborator라면
+바로 `upstream`으로 푸시할 수 있습니다.
+
+만약 `upstream`에 새로운 커밋이 추가되었는데 자신의 저장소에
+아직 반영이 안되었다면 다음과 같이 수정내역을 반영할 수 있습니다.
+```sh
+git pull upstream master
+#upstream의 master 브랜치를 받아온 뒤,
+git push origin master
+#origin/master에 반영
+```
+
 
 ### 2-4 PR 보내기
 
