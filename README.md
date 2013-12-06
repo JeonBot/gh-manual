@@ -198,6 +198,32 @@ git push origin master
 
 ### 3-1 PR받기
 
+![이슈 트래커에서도 PR을 확인할 수 있습니다](receive_pr.png)
+
+![](receive_pr2.png)
+
+프로젝트에 쌓인 PR을 확인하려면 저장소 페이지의 우측에 있는
+`Pull Requests` 탭에서 확인할 수 있습니다.
+
+PR도 하나의 이슈로 취급되기 때문에 이슈트래커에서도 PR을 확인할 수 있으며,
+merge를 승인하지 않고 그냥 PR을 닫을 수도 있습니다.
+
+![](receive_pr3.png)
+
+`Commits`버튼을 눌러서 커밋 목록을 확인할 수 있고
+`Files Changed`를 눌러서 변경사항을 확인할 수 있습니다.
+
+`Merge pull request` 버튼을 누르고,
+
+![](receive_pr4.png)
+
+커밋 메세지를 작성한 다음 `Confirm merge` 버튼을 누르면
+
+![`...` 버튼을 눌러서 커밋 메세지를 확인할 수 있습니다](receive_pr5.png)
+
+위와 같이 해당 패치가 프로젝트 저장소에 반영됩니다.
+
+
 ### 3-2 이슈 관리하기
 
 ### 3-3 Collaborator 추가하기
