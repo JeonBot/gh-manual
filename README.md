@@ -224,3 +224,21 @@ merge를 승인하지 않고 그냥 PR을 닫을 수도 있습니다.
 
 
 ### 3-2 Collaborator 추가하기
+
+PR을 받아주다 보면 신뢰할 수 있는 사람인가를 어느정도 구별할 수 있게 됩니다.
+그런 사람에게는 프로젝트를 관리할 권한을 줄 수 있는데
+그 것을 collaborator라고 합니다.
+
+![우측 하단에 있습니다](collaborator.png)
+
+![좌측에 있습니다](collaborator2.png)
+
+`Settings`/`Collaborators`탭으로 들어가서
+
+![](collaborator3.png)
+
+추가할 사람을 입력하고 `Add` 버튼을 누르면
+
+![`remove` 버튼을 눌러서 권한을 없앨 수도 있습니다](collaborator4.png)
+
+위와 같이 collaborator가 추가됩니다.
